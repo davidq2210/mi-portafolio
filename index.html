@@ -63,6 +63,7 @@
       
       <nav class="hidden md:flex items-center gap-8 text-sm text-slate-400">
         <a href="#proyectos" class="hover:text-white transition">Proyectos</a>
+        <a href="#trayectoria" class="hover:text-white transition">Trayectoria</a>
         <a href="#stack" class="hover:text-white transition">Stack Técnico</a>
         <a href="#contacto" class="hover:text-white transition">Contacto</a>
       </nav>
@@ -116,7 +117,7 @@
       <!-- Filtros por categoría -->
       <div class="flex flex-wrap gap-2" id="filter-buttons">
         <button data-filter="all" class="filter-btn active px-3.5 py-1.5 rounded-lg text-xs font-medium bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 transition">
-          Todos (5)
+          Todos (6)
         </button>
         <button data-filter="web" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-slate-900 text-slate-400 border border-slate-800 hover:text-white transition">
           Web Full-Stack
@@ -132,6 +133,125 @@
 
     <!-- Cuadrícula de Proyectos (Se renderiza dinámicamente desde JS) -->
     <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </section>
+
+  <!-- Trayectoria en Hardware & Infraestructura -->
+  <section id="trayectoria" class="max-w-6xl mx-auto px-4 sm:px-6 py-16 border-t border-slate-800/80">
+    <div class="mb-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-mono text-xs mb-3">
+        <span>+20 AÑOS DE EXPERIENCIA PRÁCTICA</span>
+        <span>•</span>
+        <span>EN CAMPO & DATA CENTER</span>
+      </div>
+      <h2 class="text-2xl sm:text-3xl font-bold text-white mb-3">Trayectoria en Infraestructura, Redes & Hardware</h2>
+      <p class="text-slate-400 text-sm max-w-3xl leading-relaxed">
+        Sólida experiencia práctica de más de dos décadas resolviendo requerimientos de misión crítica: despliegue y hardening de servidores, diseño de cableado estructurado y fibra óptica, diagnóstico electrónico de hardware, respaldo energético industrial y mantenimiento técnico en plantas de producción.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- (a) Administración de Servidores Linux y Virtualización -->
+      <div class="p-6 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-emerald-500/40 transition group">
+        <div class="flex items-center justify-between gap-4 mb-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"/></svg>
+            </div>
+            <div class="text-emerald-400 font-mono text-xs tracking-wider">01 / SERVIDORES & SISTEMAS</div>
+          </div>
+          <span class="text-xs font-mono text-slate-500">Enterprise</span>
+        </div>
+        <h3 class="text-lg font-bold text-white group-hover:text-emerald-300 transition mb-2.5">
+          Administración de Servidores Linux y Virtualización
+        </h3>
+        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+          Instalación, hardening y mantenimiento de servidores bajo distribuciones Linux (Ubuntu Server, Debian). Implementación de entornos virtualizados con Proxmox VE, KVM y VMware, orquestación de contenedores Docker, gestión de almacenamiento masivo y políticas de backup automatizado para alta disponibilidad.
+        </p>
+        <div class="flex flex-wrap gap-1.5 pt-2 border-t border-slate-800/60">
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Ubuntu Server</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Debian</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Proxmox VE</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Docker</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Bash Scripting</span>
+        </div>
+      </div>
+
+      <!-- (b) Redes, Fibra Óptica y Cableado Estructurado -->
+      <div class="p-6 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-sky-500/40 transition group">
+        <div class="flex items-center justify-between gap-4 mb-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-lg bg-sky-500/10 border border-sky-500/20 flex items-center justify-center text-sky-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"/></svg>
+            </div>
+            <div class="text-sky-400 font-mono text-xs tracking-wider">02 / TELECOMUNICACIONES & REDES</div>
+          </div>
+          <span class="text-xs font-mono text-slate-500">Conectividad</span>
+        </div>
+        <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition mb-2.5">
+          Redes, Fibra Óptica y Cableado Estructurado
+        </h3>
+        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+          Diseño, canalización, conectorización y certificación de cableado estructurado Cat6/6A y tendidos de fibra óptica monomodo y multimodo. Configuración de switching y routing gestionado, segmentación mediante VLANs, enlaces inalámbricos punto a punto (MikroTik/Ubiquiti) y VPNs punto a sitio seguras.
+        </p>
+        <div class="flex flex-wrap gap-1.5 pt-2 border-t border-slate-800/60">
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Fibra Óptica</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Cableado Cat6/6A</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">VLANs & Routing</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">MikroTik</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Ubiquiti</span>
+        </div>
+      </div>
+
+      <!-- (c) Diagnóstico de Hardware, Reparación y Respaldo Energético (UPS) -->
+      <div class="p-6 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-amber-500/40 transition group">
+        <div class="flex items-center justify-between gap-4 mb-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </div>
+            <div class="text-amber-400 font-mono text-xs tracking-wider">03 / ELECTRÓNICA & POTENCIA</div>
+          </div>
+          <span class="text-xs font-mono text-slate-500">Misión Crítica</span>
+        </div>
+        <h3 class="text-lg font-bold text-white group-hover:text-amber-300 transition mb-2.5">
+          Diagnóstico de Hardware, Reparación y Respaldo Energético (UPS)
+        </h3>
+        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+          Detección y resolución de fallas a nivel de componente en estaciones de trabajo, servidores en rack y electrónica asociada. Dimensionamiento, instalación, reemplazo de bancos de baterías y mantenimiento correctivo/preventivo de sistemas UPS online e industriales para garantizar suministro eléctrico ininterrumpido 24/7.
+        </p>
+        <div class="flex flex-wrap gap-1.5 pt-2 border-t border-slate-800/60">
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Diagnóstico Nivel Componente</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">UPS Online & Bancos DC</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Mantenimiento Preventivo</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Servidores Rack</span>
+        </div>
+      </div>
+
+      <!-- (d) Mantenimiento Técnico e Industrial en campo (Drive Tech) -->
+      <div class="p-6 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-purple-500/40 transition group">
+        <div class="flex items-center justify-between gap-4 mb-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-lg bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div class="text-purple-400 font-mono text-xs tracking-wider">04 / INDUSTRIA & AUTOMATIZACIÓN</div>
+          </div>
+          <span class="text-xs font-mono text-slate-500">Drive Tech</span>
+        </div>
+        <h3 class="text-lg font-bold text-white group-hover:text-purple-300 transition mb-2.5">
+          Mantenimiento Técnico e Industrial en Campo (Drive Tech)
+        </h3>
+        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+          Operación técnica directa en instalaciones industriales de gran envergadura (experiencia en INVECEM San Sebastián). Intervención de tableros de control eléctrico, variadores de frecuencia (VFD), sensorica, conexionado de actuadores y protocolos de mantenimiento técnico en entornos industriales severos.
+        </p>
+        <div class="flex flex-wrap gap-1.5 pt-2 border-t border-slate-800/60">
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Drive Tech</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">INVECEM San Sebastián</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Variadores VFD</span>
+          <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-[11px]">Automatización en Planta</span>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Stack & Capacidades -->
@@ -254,7 +374,7 @@
         description: 'Sistema full-stack diseñado para ligas y torneos deportivos. Incluye seguimiento de partidos punto a punto en tiempo real, estadísticas por atleta, estados de cuenta y solvencia financiera, procesamiento automático de logos en WebP y emisión de hojas oficiales de partido listas para imprimir.',
         note: 'Nota: El backend en Render (capa gratuita) puede tardar ~30 segundos en reactivarse en la primera petición.',
         tags: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'Supabase', 'Vercel'],
-        videoSrc: 'media/voleibol-demo.mp4', // Reemplazar con tu video corto en /media/
+        videoSrc: 'media/voleibol-demo.mp4',
         images: ['media/voleibol-1.webp', 'media/voleibol-2.webp'],
         architecture: [
           { layer: 'Frontend SPA', detail: 'React + TypeScript + Tailwind desplegado en Vercel Edge CDN' },
@@ -271,10 +391,10 @@
         id: 'pdfbok',
         title: 'PDFBok (Android)',
         category: 'android',
-        categoryLabel: 'App Android Nativa (APK)',
+        categoryLabel: 'App Android Nativa',
         summary: 'Herramienta móvil offline para convertir documentos PDF a Markdown, Word (.docx) y Excel (.xlsx) con reconocimiento óptico de caracteres (OCR) integrado.',
         description: 'Aplicación nativa desarrollada en Kotlin y Jetpack Compose orientada a productividad sin conexión a internet. Extrae texto estructurado, tablas y documentos escaneados mediante ML Kit OCR, exportando directamente a formatos editables de oficina con Apache POI.',
-        note: 'Distribución directa mediante APK firmado en GitHub Releases (compatible con Android 8.0+).',
+        note: 'Distribución privada. Demostración funcional y acceso al código bajo solicitud directa.',
         tags: ['Kotlin', 'Jetpack Compose', 'Material 3', 'Apache POI', 'ML Kit OCR'],
         videoSrc: 'media/pdfbok-demo.mp4',
         images: ['media/pdfbok-1.webp', 'media/pdfbok-2.webp'],
@@ -285,18 +405,17 @@
         ],
         mockupType: 'android-pdf',
         links: [
-          { label: 'Solicitar Demo / Contacto', url: 'mailto:querkro@gmail.com?subject=Consulta%20sobre%20PDFBok%20Android', primary: true, icon: 'external' },
-          
+          { label: 'Solicitar Demo / Contacto', url: 'mailto:querkro@gmail.com?subject=Consulta%20sobre%20PDFBok%20Android', primary: true, icon: 'mail' }
         ]
       },
       {
         id: 'mis-finanzas',
         title: 'Mis Finanzas y Notas',
         category: 'android',
-        categoryLabel: 'App Android Nativa (APK)',
+        categoryLabel: 'App Android Nativa',
         summary: 'Gestor personal de finanzas multidivisa (USD, Bs, USDT) y notas rápidas con historial de movimientos, tarjetas de cuentas y rebalanceo de saldos.',
         description: 'Aplicación nativa pensada para el control diario de múltiples cuentas bancarias, billeteras digitales y efectivo. Permite registrar ingresos, egresos, transferencias entre cuentas con conversión de tasa y notas operativas almacenadas localmente de forma segura.',
-        note: 'Almacenamiento 100% local en el dispositivo mediante SQLite / Room sin depender de servidores externos.',
+        note: 'Almacenamiento 100% local en SQLite / Room sin servidores externos. Demostración privada bajo solicitud.',
         tags: ['Kotlin', 'Jetpack Compose', 'Room DB', 'Coroutines', 'MVVM'],
         videoSrc: 'media/finanzas-demo.mp4',
         images: ['media/finanzas-1.webp', 'media/finanzas-2.webp'],
@@ -307,8 +426,7 @@
         ],
         mockupType: 'android-finance',
         links: [
-          { label: 'Solicitar Demo / Contacto', url: 'mailto:querkro@gmail.com?subject=Consulta%20sobre%20Mis%20Finanzas%20y%20Notas', primary: true, icon: 'external' },
-          
+          { label: 'Solicitar Demo / Contacto', url: 'mailto:querkro@gmail.com?subject=Consulta%20sobre%20Mis%20Finanzas%20y%20Notas', primary: true, icon: 'mail' }
         ]
       },
       {
@@ -353,95 +471,142 @@
           { label: 'Explorar Proyecto', url: 'https://github.com/davidq2210', primary: true, icon: 'external' },
           { label: 'Código en GitHub', url: 'https://github.com/davidq2210', primary: false, icon: 'github' }
         ]
+      },
+      {
+        id: 'public-drivetech',
+        title: 'Public Drivetech',
+        category: 'web',
+        categoryLabel: 'Web Full-Stack',
+        summary: 'Portal web corporativo y de exhibición técnica para proyectos de mantenimiento preventivo, correctivo y automatización industrial en planta (INVECEM San Sebastián).',
+        description: 'Plataforma web enfocada en la exhibición y documentación técnica de proyectos de mantenimiento electromecánico, calibración y automatización industrial ejecutados en planta cementera (INVECEM San Sebastián). Desarrollada con arquitectura de alto rendimiento para presentación de servicios de ingeniería, variadores de frecuencia y sistemas de control.',
+        note: '',
+        tags: ['Astro', 'Tailwind CSS', 'HTML/CSS', 'Vercel'],
+        videoSrc: 'media/drivetech-demo.mp4',
+        images: ['media/drivetech-1.webp', 'media/drivetech-2.webp'],
+        architecture: [
+          { layer: 'Frontend SSG', detail: 'Astro con componentes estáticos ultraligeros y Tailwind CSS' },
+          { layer: 'Fichas de Proyectos', detail: 'Catálogo responsivo de servicios técnicos y automatización en planta' },
+          { layer: 'Despliegue & CDN', detail: 'CI/CD automatizado y entrega global de alta velocidad en Vercel' }
+        ],
+        mockupType: 'drivetech',
+        links: [
+          { label: 'Ver en GitHub', url: 'https://github.com/davidq2210', primary: true, icon: 'github' },
+          { label: 'Correo de Contacto', url: 'mailto:querkro@gmail.com?subject=Consulta%20sobre%20Public%20Drivetech', primary: false, icon: 'mail' }
+        ]
       }
     ];
 
     // Representaciones visuales interactivas integradas (se muestran mientras cargas tus MP4/WebP reales)
-    function renderVisualMockup(type) {
+    function renderVisualMockup(type, isThumbnail = false) {
+      const pad = isThumbnail ? 'p-3' : 'p-6';
+      const helper = (file, isVideo = false) => isThumbnail ? '' : `
+        <div class="mt-4 text-xs text-slate-400 font-mono">
+          Sube tu ${isVideo ? 'video' : 'captura'} a <span class="text-slate-200">${file}</span>
+        </div>`;
+
       if (type === 'scoreboard') {
         return `
-          <div class="w-full p-6 flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950">
-            <div class="text-xs font-mono text-emerald-400 mb-3 flex items-center gap-2">
+          <div class="w-full ${pad} flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950">
+            <div class="text-xs font-mono text-emerald-400 mb-2 flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span> EN VIVO — SET 3 • ACTA FIVB LISTA
             </div>
-            <div class="w-full max-w-md grid grid-cols-3 items-center bg-slate-900/90 border border-slate-700 rounded-xl p-4 text-center shadow-lg">
+            <div class="w-full max-w-md grid grid-cols-3 items-center bg-slate-900/90 border border-slate-700 rounded-xl p-3 text-center shadow-lg">
               <div>
-                <div class="text-xs text-slate-400 font-mono">LOCAL</div>
-                <div class="text-white font-bold text-sm mt-1">MIRANDA VC</div>
-                <div class="text-3xl font-mono font-bold text-emerald-400 mt-2">24</div>
+                <div class="text-[11px] text-slate-400 font-mono">LOCAL</div>
+                <div class="text-white font-bold text-xs sm:text-sm mt-0.5">MIRANDA VC</div>
+                <div class="text-2xl sm:text-3xl font-mono font-bold text-emerald-400 mt-1">24</div>
               </div>
-              <div class="text-xs font-mono text-slate-500">VS<br><span class="text-slate-300">Sets: 2 - 0</span></div>
+              <div class="text-[11px] font-mono text-slate-500">VS<br><span class="text-slate-300">Sets: 2 - 0</span></div>
               <div>
-                <div class="text-xs text-slate-400 font-mono">VISITANTE</div>
-                <div class="text-white font-bold text-sm mt-1">CARACAS CLUB</div>
-                <div class="text-3xl font-mono font-bold text-sky-400 mt-2">22</div>
+                <div class="text-[11px] text-slate-400 font-mono">VISITANTE</div>
+                <div class="text-white font-bold text-xs sm:text-sm mt-0.5">CARACAS CLUB</div>
+                <div class="text-2xl sm:text-3xl font-mono font-bold text-sky-400 mt-1">22</div>
               </div>
             </div>
-            <div class="mt-4 text-xs text-slate-400 font-mono">Sube tu video a <span class="text-slate-200">/media/voleibol-demo.mp4</span> para reemplazar esta vista</div>
+            ${helper('/media/voleibol-demo.mp4', true)}
           </div>`;
       }
       if (type === 'android-pdf') {
         return `
-          <div class="w-full p-6 flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950">
-            <div class="w-64 rounded-2xl border-2 border-slate-700 bg-slate-900 p-4 shadow-xl space-y-3">
+          <div class="w-full ${pad} flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950">
+            <div class="w-64 rounded-2xl border-2 border-slate-700 bg-slate-900 p-3 shadow-xl space-y-2">
               <div class="flex justify-between items-center text-xs font-mono text-sky-400">
                 <span>PDFBok v1.2</span><span>OFFLINE OCR</span>
               </div>
-              <div class="p-2.5 rounded-lg bg-slate-800/80 border border-slate-700 text-xs text-slate-200">
+              <div class="p-2 rounded-lg bg-slate-800/80 border border-slate-700 text-xs text-slate-200">
                 📄 Contrato_Servicios.pdf <span class="text-slate-400 block text-[10px]">14 páginas • Listo</span>
               </div>
               <div class="grid grid-cols-3 gap-1.5 text-center text-[11px] font-mono">
-                <div class="p-1.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">.MD</div>
-                <div class="p-1.5 rounded bg-sky-500/20 text-sky-300 border border-sky-500/30">.DOCX</div>
-                <div class="p-1.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">.XLSX</div>
+                <div class="p-1 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">.MD</div>
+                <div class="p-1 rounded bg-sky-500/20 text-sky-300 border border-sky-500/30">.DOCX</div>
+                <div class="p-1 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">.XLSX</div>
               </div>
             </div>
-            <div class="mt-4 text-xs text-slate-400 font-mono">Sube tus capturas a <span class="text-slate-200">/media/pdfbok-1.webp</span></div>
+            ${helper('/media/pdfbok-1.webp')}
           </div>`;
       }
       if (type === 'android-finance') {
         return `
-          <div class="w-full p-6 flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950">
-            <div class="w-64 rounded-2xl border-2 border-slate-700 bg-slate-900 p-4 shadow-xl space-y-2.5">
-              <div class="text-xs font-mono text-emerald-400">BALANCE CONSOLIDADO</div>
-              <div class="text-2xl font-bold text-white font-mono">$ 1,480.50</div>
-              <div class="space-y-1.5 pt-1 text-xs">
-                <div class="flex justify-between p-2 rounded bg-slate-800/70"><span>Banesco (Bs)</span><span class="font-mono text-slate-300">Bs. 18,450</span></div>
-                <div class="flex justify-between p-2 rounded bg-slate-800/70"><span>Binance USDT</span><span class="font-mono text-emerald-400">$ 820.00</span></div>
+          <div class="w-full ${pad} flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950">
+            <div class="w-64 rounded-2xl border-2 border-slate-700 bg-slate-900 p-3 shadow-xl space-y-2">
+              <div class="text-[11px] font-mono text-emerald-400">BALANCE CONSOLIDADO</div>
+              <div class="text-xl sm:text-2xl font-bold text-white font-mono">$ 1,480.50</div>
+              <div class="space-y-1 pt-0.5 text-xs">
+                <div class="flex justify-between p-1.5 rounded bg-slate-800/70"><span>Banesco (Bs)</span><span class="font-mono text-slate-300">Bs. 18,450</span></div>
+                <div class="flex justify-between p-1.5 rounded bg-slate-800/70"><span>Binance USDT</span><span class="font-mono text-emerald-400">$ 820.00</span></div>
               </div>
             </div>
-            <div class="mt-4 text-xs text-slate-400 font-mono">Sube tus capturas a <span class="text-slate-200">/media/finanzas-1.webp</span></div>
+            ${helper('/media/finanzas-1.webp')}
           </div>`;
       }
       if (type === 'quant-chart') {
         return `
-          <div class="w-full p-6 flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950">
-            <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-xl p-4 space-y-3">
+          <div class="w-full ${pad} flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950">
+            <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-xl p-3 space-y-2">
               <div class="flex justify-between text-xs font-mono">
                 <span class="text-amber-400">GEX RADAR • SPX / XAUUSD</span>
                 <span class="text-emerald-400">+GAMMA REGIME</span>
               </div>
-              <div class="flex items-end gap-2 h-24 pt-4 px-2">
-                <div class="flex-1 bg-rose-500/40 border-t-2 border-rose-400 h-10 rounded-t"></div>
-                <div class="flex-1 bg-rose-500/40 border-t-2 border-rose-400 h-6 rounded-t"></div>
-                <div class="flex-1 bg-emerald-500/40 border-t-2 border-emerald-400 h-14 rounded-t"></div>
-                <div class="flex-1 bg-emerald-500/50 border-t-2 border-emerald-400 h-20 rounded-t"></div>
-                <div class="flex-1 bg-sky-500/50 border-t-2 border-sky-400 h-16 rounded-t"></div>
-                <div class="flex-1 bg-emerald-500/40 border-t-2 border-emerald-400 h-12 rounded-t"></div>
+              <div class="flex items-end gap-2 h-20 pt-2 px-2">
+                <div class="flex-1 bg-rose-500/40 border-t-2 border-rose-400 h-9 rounded-t"></div>
+                <div class="flex-1 bg-rose-500/40 border-t-2 border-rose-400 h-5 rounded-t"></div>
+                <div class="flex-1 bg-emerald-500/40 border-t-2 border-emerald-400 h-13 rounded-t"></div>
+                <div class="flex-1 bg-emerald-500/50 border-t-2 border-emerald-400 h-18 rounded-t"></div>
+                <div class="flex-1 bg-sky-500/50 border-t-2 border-sky-400 h-14 rounded-t"></div>
+                <div class="flex-1 bg-emerald-500/40 border-t-2 border-emerald-400 h-10 rounded-t"></div>
               </div>
             </div>
-            <div class="mt-4 text-xs text-slate-400 font-mono">Sube tus capturas a <span class="text-slate-200">/media/quant-1.webp</span></div>
+            ${helper('/media/quant-1.webp')}
+          </div>`;
+      }
+      if (type === 'drivetech') {
+        return `
+          <div class="w-full ${pad} flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950">
+            <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-xl p-3.5 space-y-2 text-xs font-mono">
+              <div class="flex justify-between items-center text-sky-400">
+                <span>DRIVETECH • INVECEM</span>
+                <span class="text-[10px] px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">PLANTA SAN SEBASTIÁN</span>
+              </div>
+              <div class="p-2.5 rounded bg-slate-800/80 border border-slate-700 text-slate-300 space-y-1">
+                <div class="text-white font-semibold text-xs flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Mantenimiento & Automatización
+                </div>
+                <div class="text-[11px] text-slate-400">Variadores VFD • Telemetría • Monitoreo de Líneas</div>
+              </div>
+            </div>
+            ${helper('/media/drivetech-1.webp')}
           </div>`;
       }
       return `
-        <div class="w-full p-6 flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950">
-          <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-xl p-4 space-y-2 text-xs font-mono">
+        <div class="w-full ${pad} flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950">
+          <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-xl p-3 space-y-2 text-xs font-mono">
             <div class="text-purple-400">UNIPORTAL • RESERVA DE AULAS</div>
-            <div class="grid grid-cols-2 gap-2 pt-2">
+            <div class="grid grid-cols-2 gap-2 pt-1">
               <div class="p-2 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300">Aula 104 • Disponible</div>
               <div class="p-2 rounded bg-slate-800 border border-slate-700 text-slate-400">Lab. Redes • Ocupada</div>
             </div>
           </div>
+          ${helper('/media/uniportal-1.webp')}
         </div>`;
     }
 
@@ -454,8 +619,8 @@
                  class="group cursor-pointer rounded-xl bg-slate-900/70 hover:bg-slate-900 border border-slate-800 hover:border-emerald-500/40 transition-all duration-200 flex flex-col justify-between overflow-hidden shadow-lg">
           <div>
             <!-- Miniatura interactiva superior -->
-            <div class="h-44 bg-slate-950 border-b border-slate-800/80 overflow-hidden relative flex items-center justify-center">
-              ${renderVisualMockup(project.mockupType)}
+            <div class="h-52 bg-slate-950 border-b border-slate-800/80 overflow-hidden relative flex items-center justify-center">
+              ${renderVisualMockup(project.mockupType, true)}
               <div class="absolute inset-0 bg-slate-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center backdrop-blur-[1px]">
                 <span class="px-3.5 py-1.5 rounded-full bg-emerald-500 text-slate-950 font-semibold text-xs shadow-lg flex items-center gap-1.5">
                   <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"/></svg>
